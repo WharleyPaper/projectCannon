@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eeebe5;
+}
+
+nav{
+    border-bottom: 1px solid #686765;
+    padding-block: 1rem;
+}
+.genLayout{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.innerNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.innerNav > h5{
+    color: #5d0ffd;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.navigationItems{
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.navigationItems > a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #686765;
+    font-size: 12px;
+    font-weight:600;
+}
+
+.navigationItems > a:nth-child(4){
+    background-color: #f5f3f0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.navigationItems > button{
+    border: none;
+    background-color: #5700fb;
+    color: #fff;
+    padding: 8px 17px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+/* styling for main */
+
+.badge{
+    background-color: #fff;
+    margin-block: 2.7rem;
+    border-radius: 7px;
+    padding-block: 2rem;
+    text-align: center;
+}
+.badge > span{
+    background-color: #6a1eff ;
+    border-radius: 5px;
+    color: #fff;
+    width: 30px;
+    margin: 1.5rem auto;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge > h1 {
+    font-size: 2rem;
+}
+.badge > p{
+    font-size: 14px;
+    margin-block: .7rem;
+    color: #686765;
+}
+
+.badgeInfo{
+    max-width: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.badgeInfo > h6{
+    border: 1px solid #f4f2ef ;
+    padding: 8px 15px ;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+
+/* styling for contact  */
+.contactWrapper{
+    display: flex;
+    /* align-items: center; */
+    gap: 20px;
+}
+
+.contactInfo{
+    width: 35%;
+}
+
+.contactInfoCard{
+    background-color: #fff;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+
+.contactInfoText > p{
+    font-size: 13px;
+    opacity: 0.7;
+
+}
+.contactInfoText >h1{
+font-size: 14px;
+margin-top: 5px;
+
+}
+
+.contactInfoCard > span {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.contactInfo h3{
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 140px;
+    padding: .7rem;
+    border: radius 5px;
+    margin-top: .5rem;
+    gap: 10px;
+}
+.socialIcons > a {
+    background-color: #5700fb;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    text-decoration:none ;
+
+}
+
+.formWrapper{
+    flex: 1;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 3rem 2.5rem;
+
+}
+
+/* form{
+    border: 2px solid;
+} */
+
+.inputWrapper{
+    display: flex;
+    gap: 1rem;
+}
+
+.inputWrapper > input {
+    background-color: #eeebe5;
+    padding: .8rem 1rem;
+    flex: 1;
+    margin-bottom: 1rem;
+    border-radius: 7px;
+    border: 1px solid #ece8e2;
+    outline: none;
+}
+
+.inputWrapper > input::placeholder{
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.contactOptions{
+    background-color: #eeebe5;
+    padding: .8rem 1,5rem;
+    border-radius: 7px;
+
+}
+
+.contactOptions > p{
+   margin-bottom: 1.7rem;
+
+}
+
+.optionWrapper{
+    width: 70%;
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
