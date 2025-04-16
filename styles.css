@@ -9,8 +9,13 @@ body{
 }
 
 nav{
+    z-index: 1;
     border-bottom: 1px solid #686765;
+    background-color: #eeebe5;
     padding-block: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .genLayout{
     max-width: 1000px;
